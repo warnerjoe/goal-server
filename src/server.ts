@@ -9,7 +9,7 @@ const app: Application = express();
 const PORT = process.env.PORT;
 
 mongoose
-    .connect(process.env.MONGODB_URI || "", /*{ useNewUrlParser: true, useUnifiedToplogy: true }*/)
+    .connect(process.env.MONGODB_URI || "",)
     .then(() => {
         console.log("MongoDB successfully connected.");
     })
@@ -21,6 +21,8 @@ app.use(express.json());
 
 app.use("/api", goalRoutes); // Use the goal routes
 
-app.listen(PORT, () => {
+const server = app.listen(PORT, () => {
     console.log(`Server is running on port ${PORT}`)
 });
+
+export { app, server };
