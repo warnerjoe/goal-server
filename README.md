@@ -14,11 +14,11 @@ For this project, I used a Typescript based stack. I built an API server using N
 ## Optimizations
 *(optional)*
 
-To be determined.
+To be determined.  
 
 ## Lessons Learned:
 
-To be determined.
+To be determined.  Testing Git to see how pull requests work.
 
 ## Examples:
 Take a look at these couple examples that I have in my own portfolio:
