@@ -1,5 +1,5 @@
-# Goal App
-A goal tracking app with gamified elements.  This repository is just the server.
+# Goal App (Server)
+A goal tracking app with gamified elements.  This repository is just the server.  To view the client, visit https://github.com/warnerjoe/goal-client.
 
 **Link to project:** TBD
 
