@@ -3,7 +3,7 @@ A goal tracking app with gamified elements.  This repository is just the server.
 
 **Link to project:** TBD
 
-![Picture of App](http://placecorgi.com/1200/650)
+![Picture of Goal App (front end)](http://placecorgi.com/1200/650)
 
 ## How It's Made:
 
